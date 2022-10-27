@@ -1,11 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 
-.u-textCenter{
-    text-align: center;
+
+:root{
+    --blue: #5271c7;
+    --grey: #525252;
+    --white: rgb(255, 255, 255);
+
+    --xs: 4px;
+    --s: 8px;
+    --m: 16px;
+    --l: 24px;
+
 }
 
 body{
     
     font-family: 'Caveat Brush', cursive;
+    margin: 0;
 
+
+}
+
+
+.u-textCenter{
+    text-align: center;
+
+}
+
+.navContainer {
+    padding: var(--l) var(--l);
+    background-color: var(--blue);
+
+}
+
+.navTitle {
+    color: var(--white);
+    font-size: 40px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.avatarContainer{
+    padding: 0 35%;
+}
+
+.image01 {
+    max-width: 100%;
+    border-radius: 100px;
 }
